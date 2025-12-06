@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jitenchand Ramola | Marketing Professional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              DEFAULT: '#7C3AED',
+              light: '#8B5CF6',
+              dark: '#6D28D9'
+            },
+            secondary: {
+              DEFAULT: '#10B981',
+              light: '#34D399',
+              dark: '#059669'
+            },
+            accent: {
+              DEFAULT: '#F59E0B',
+              light: '#FBBF24',
+              dark: '#D97706'
+            },
+            background: {
+              light: '#F8FAFC',
+              dark: '#0F172A'
+            },
+            surface: {
+              light: '#FFFFFF',
+              dark: '#1E293B'
+            },
+            card: {
+              light: '#F1F5F9',
+              dark: '#334155'
+            },
+            text: {
+              light: '#1E293B',
+              dark: '#F1F5F9'
+            },
+            textLight: {
+              light: '#64748B',
+              dark: '#CBD5E1'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          animation: {
+            'float': 'float 6s ease-in-out infinite',
+            'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'slide-up': 'slideUp 0.5s ease-out',
+            'fade-in': 'fadeIn 0.8s ease-out',
+            'bounce-in': 'bounceIn 0.8s ease-out',
+            'marketing-glow': 'marketingGlow 3s ease-in-out infinite',
+            'chart-grow': 'chartGrow 1.5s ease-out'
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-15px)' },
+            },
+            slideUp: {
+              '0%': { transform: 'translateY(30px)', opacity: 0 },
+              '100%': { transform: 'translateY(0)', opacity: 1 },
+            },
+            fadeIn: {
+              '0%': { opacity: 0 },
+              '100%': { opacity: 1 },
+            },
+            bounceIn: {
+              '0%': { transform: 'scale(0.8)', opacity: 0 },
+              '70%': { transform: 'scale(1.05)' },
+              '100%': { transform: 'scale(1)', opacity: 1 },
+            },
+            marketingGlow: {
+              '0%, 100%': { boxShadow: '0 0 20px rgba(124, 58, 237, 0.3)' },
+              '50%': { boxShadow: '0 0 40px rgba(124, 58, 237, 0.5)' },
+            },
+            chartGrow: {
+              '0%': { width: '0%' },
+              '100%': { width: 'var(--target-width)' },
+            }
+          },
+          boxShadow: {
+            'material': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+            'material-lg': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+            'material-xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+            'neon': '0 0 20px rgba(124, 58, 237, 0.4)',
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/css">
+    :root {
+      --primary-color: #7C3AED;
+      --secondary-color: #10B981;
+    }
+    
+    body {
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .gradient-text {
+      background: linear-gradient(90deg, #7C3AED, #10B981);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    .gradient-bg {
+      background: linear-gradient(135deg, #7C3AED, #10B981);
+    }
+    
+    .accent-gradient {
+      background: linear-gradient(135deg, #F59E0B, #10B981);
+    }
+    
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      border-radius: 12px;
+    }
+    
+    .card-hover:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    }
+    
+    .section-title {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .section-title:after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 50%;
+      height: 4px;
+      background: linear-gradient(90deg, #7C3AED, #10B981);
+      border-radius: 2px;
+    }
+    
+    .floating-shape {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: linear-gradient(180deg, rgba(124, 58, 237, 0.08) 0%, rgba(16, 185, 129, 0.08) 100%);
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+      z-index: 0;
+      animation: float 20s ease-in-out infinite;
+      filter: blur(40px);
+    }
+    
+    .skill-bar {
+      height: 8px;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    
+    .skill-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #7C3AED, #10B981);
+      border-radius: 4px;
+      transition: width 1.5s ease-out;
+    }
+    
+    .timeline-dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #7C3AED, #10B981);
+      border: 4px solid;
+      z-index: 1;
+    }
+    
+    .dark .timeline-dot {
+      border-color: #0F172A;
+    }
+    
+    .light .timeline-dot {
+      border-color: #FFFFFF;
+    }
+    
+    .timeline-line {
+      position: absolute;
+      left: 8px;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: linear-gradient(to bottom, #7C3AED, #10B981);
+    }
+    
+    .nav-link {
+      position: relative;
+      transition: color 0.3s ease;
+    }
+    
+    .nav-link:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 3px;
+      bottom: -5px;
+      left: 0;
+      background: linear-gradient(90deg, #7C3AED, #10B981);
+      transition: width 0.3s ease;
+      border-radius: 2px;
+    }
+    
+    .nav-link:hover:after {
+      width: 100%;
+    }
+    
+    .theme-toggle {
+      background: linear-gradient(135deg, #7C3AED, #10B981);
+      transition: all 0.3s ease;
+    }
+    
+    .theme-toggle:hover {
+      transform: rotate(30deg);
+      box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+    }
+    
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #7C3AED, #10B981);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    
+    .marketing-element {
+      animation: marketingGlow 3s ease-in-out infinite;
+    }
+    
+    .chart-animation {
+      animation: chartGrow 1.5s ease-out forwards;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .section-title:after {
+        width: 30%;
+      }
+      .floating-shape {
+        width: 300px;
+        height: 300px;
+      }
+      .stat-number {
+        font-size: 2rem;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .section-title:after {
+        width: 25%;
+      }
+    }
+
+    .theme-toggle {
+  background: linear-gradient(135deg, #7C3AED, #10B981);
+  box-shadow: 0 4px 20px rgba(124, 58, 237, 0.4);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1) rotate(15deg);
+  box-shadow: 0 8px 30px rgba(124, 58, 237, 0.6);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Floating animation for the FAB */
+@keyframes float-fab {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.theme-toggle {
+  animation: float-fab 6s ease-in-out infinite;
+}
+
+/* Pulse effect */
+@keyframes pulse-fab {
+  0% { box-shadow: 0 4px 20px rgba(124, 58, 237, 0.4); }
+  50% { box-shadow: 0 4px 30px rgba(124, 58, 237, 0.7); }
+  100% { box-shadow: 0 4px 20px rgba(124, 58, 237, 0.4); }
+}
+
+.theme-toggle:hover {
+  animation: none; /* Stop floating on hover */
+}
+  </style>
+</head>
+<body class="dark:bg-background-dark dark:text-text-dark bg-background-light text-text-light font-sans antialiased overflow-x-hidden transition-colors duration-300">
+  
+
+  <!-- Floating Theme Toggle Button -->
+<button id="theme-toggle" class="fixed bottom-8 right-8 z-50 w-14 h-14 rounded-full flex items-center justify-center text-white shadow-material-xl transition-all duration-300 hover:scale-110 active:scale-95 theme-toggle">
+  <svg id="theme-icon" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+  </svg>
+  <span id="theme-tooltip" class="absolute right-16 bg-gray-900 text-white text-xs font-medium py-2 px-3 rounded-lg opacity-0 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
+    Switch to Light Mode
+  </span>
+</button>
+
+  <!-- Navigation -->
+  <header class="fixed w-full z-40 dark:bg-surface-dark/90 bg-surface-light/90 backdrop-blur-md transition-all duration-300 shadow-material">
+    <div class="container mx-auto px-4 sm:px-6 py-4">
+      <div class="flex items-center justify-between">
+        <a href="#home" class="text-2xl font-bold">
+          <span class="gradient-text">Jitenchand Ramola</span>
+        </a>
+        
+        <nav class="hidden md:flex space-x-8">
+          <a href="#home" class="nav-link dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Home</a>
+          <a href="#about" class="nav-link dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">About</a>
+          <a href="#skills" class="nav-link dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Skills</a>
+          <a href="#experience" class="nav-link dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Experience</a>
+          <a href="#education" class="nav-link dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Education</a>
+          <a href="#contact" class="nav-link dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Contact</a>
+        </nav>
+        
+        <button id="menu-toggle" class="md:hidden focus:outline-none dark:text-textLight-dark text-textLight-light">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden dark:bg-surface-dark bg-surface-light py-4 px-6 shadow-material-lg">
+      <div class="flex flex-col space-y-4">
+        <a href="#home" class="dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Home</a>
+        <a href="#about" class="dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">About</a>
+        <a href="#skills" class="dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Skills</a>
+        <a href="#experience" class="dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Experience</a>
+        <a href="#education" class="dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Education</a>
+        <a href="#contact" class="dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center pt-24 relative overflow-hidden dark:bg-gradient-to-br dark:from-background-dark dark:to-surface-dark bg-gradient-to-br from-background-light to-surface-light">
+    <div class="floating-shape top-0 -right-48 animate-pulse-slow"></div>
+    <div class="floating-shape bottom-0 -left-48 animate-pulse-slow" style="animation-delay: 2s;"></div>
+    
+    <div class="container mx-auto px-4 sm:px-6 py-20 md:py-32 relative z-10">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 mb-12 md:mb-0 animate__animated animate__fadeInLeft">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            Marketing & Sales Professional
+            <span class="block gradient-text animate__animated animate__fadeIn">Jitenchand Ramola</span>
+          </h1>
+          <p class="text-lg sm:text-xl dark:text-textLight-dark text-textLight-light mb-8 max-w-xl leading-relaxed">
+            BBA Marketing graduate specializing in market research, strategic planning, and brand development. Creating impactful marketing campaigns that drive business growth.
+          </p>
+          <div class="flex flex-wrap gap-4 mb-8">
+            <a href="#contact" class="gradient-bg hover:opacity-90 text-white font-medium py-3 px-6 sm:px-8 rounded-full transition-all duration-300 inline-flex items-center shadow-material-lg hover:shadow-material-xl transform hover:-translate-y-1">
+              <span>Get In Touch</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+            <a href="#experience" class="dark:border-primary-light border-primary-dark dark:text-primary-light text-primary-dark dark:hover:bg-primary-light/10 hover:bg-primary-dark/10 font-medium py-3 px-6 sm:px-8 rounded-full transition-all duration-300 inline-flex items-center border transform hover:-translate-y-1">
+              <span>View Experience</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </a>
+          </div>
+          
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
+            <div class="dark:bg-card-dark bg-card-light p-4 rounded-xl text-center card-hover">
+              <div class="stat-number mb-1">1+</div>
+              <div class="text-sm dark:text-textLight-dark text-textLight-light">Years Experience</div>
+            </div>
+            <div class="dark:bg-card-dark bg-card-light p-4 rounded-xl text-center card-hover">
+              <div class="stat-number mb-1">10+</div>
+              <div class="text-sm dark:text-textLight-dark text-textLight-light">Projects Completed</div>
+            </div>
+            <div class="dark:bg-card-dark bg-card-light p-4 rounded-xl text-center card-hover">
+              <div class="stat-number mb-1">100%</div>
+              <div class="text-sm dark:text-textLight-dark text-textLight-light">Client Satisfaction</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="md:w-1/2 flex justify-center animate__animated animate__fadeInRight">
+          <div class="relative">
+            <div class="w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 relative">
+              <!-- Background gradients -->
+              <div class="absolute inset-0 bg-gradient-to-br from-primary-light/20 to-secondary-light/20 rounded-3xl transform rotate-6 marketing-element"></div>
+              <div class="absolute inset-0 bg-gradient-to-tr from-primary-light/10 to-accent-light/10 rounded-3xl transform -rotate-6"></div>
+              
+              <!-- Profile content -->
+              <div class="relative dark:bg-surface-dark bg-surface-light rounded-3xl w-full h-full shadow-material-xl flex flex-col items-center justify-center p-6 sm:p-8 text-center dark:border-gray-800 border-gray-200 border">
+                <!-- Profile Image - Replace with your image -->
+                <img src="images/profile.jpeg" 
+     alt="Jitenchand Ramola" 
+     class="w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover object-center border-4 dark:border-surface-dark border-surface-light shadow-lg">         
+                <h3 class="text-xl sm:text-2xl font-bold dark:text-text-dark text-text-light mb-2">Jitenchand Ramola</h3>
+                <p class="dark:text-textLight-dark text-textLight-light mb-4">Marketing & Sales Professional</p>
+                
+                <div class="flex items-center dark:text-textLight-dark text-textLight-light mb-2 text-sm sm:text-base">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span>Rishikesh, Uttarakhand</span>
+                </div>
+                
+                <div class="flex items-center dark:text-textLight-dark text-textLight-light text-sm sm:text-base">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <span>jatinchandramola773@gmail.com</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Floating elements -->
+            <div class="absolute -top-4 -right-4 w-12 h-12 sm:w-16 sm:h-16 dark:bg-primary-light/10 bg-primary-dark/10 rounded-2xl transform rotate-12 floating-element"></div>
+            <div class="absolute -bottom-4 -left-4 w-14 h-14 sm:w-20 sm:h-20 dark:bg-secondary-light/10 bg-secondary-dark/10 rounded-2xl transform -rotate-12 floating-element" style="animation-delay: 1s;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 sm:py-20 relative overflow-hidden dark:bg-surface-dark bg-surface-light">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4 section-title inline-block animate__animated animate__fadeInDown">About <span class="gradient-text">Me</span></h2>
+        <p class="dark:text-textLight-dark text-textLight-light max-w-2xl mx-auto mt-4 text-lg">
+          Passionate marketing professional with a focus on strategic growth and business development
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div class="animate__animated animate__slide-up">
+          <div class="dark:bg-card-dark bg-card-light rounded-2xl p-6 sm:p-8 shadow-material-lg card-hover">
+            <h3 class="text-2xl font-bold mb-6 dark:text-text-dark text-text-light">Marketing Philosophy</h3>
+            <p class="dark:text-textLight-dark text-textLight-light mb-6 leading-relaxed">
+              I believe that effective marketing is about understanding people—their needs, desires, and behaviors. By combining data-driven insights with creative storytelling, I develop marketing strategies that resonate with audiences and deliver measurable results.
+            </p>
+            
+            <div class="space-y-6">
+              <div class="flex items-start animate__animated animate__fadeIn" style="animation-delay: 0.2s;">
+                <div class="flex-shrink-0 mt-1">
+                  <div class="w-10 h-10 rounded-full bg-primary-light/10 dark:bg-primary-light/20 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="font-bold dark:text-text-dark text-text-light">Data-Driven Strategy</h4>
+                  <p class="dark:text-textLight-dark text-textLight-light">Using analytics to inform marketing decisions and optimize campaigns.</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start animate__animated animate__fadeIn" style="animation-delay: 0.4s;">
+                <div class="flex-shrink-0 mt-1">
+                  <div class="w-10 h-10 rounded-full bg-secondary-light/10 dark:bg-secondary-light/20 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-secondary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="font-bold dark:text-text-dark text-text-light">Brand Development</h4>
+                  <p class="dark:text-textLight-dark text-textLight-light">Building cohesive brand identities that connect with target audiences.</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start animate__animated animate__fadeIn" style="animation-delay: 0.6s;">
+                <div class="flex-shrink-0 mt-1">
+                  <div class="w-10 h-10 rounded-full bg-accent-light/10 dark:bg-accent-light/20 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-accent-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="font-bold dark:text-text-dark text-text-light">Business Development</h4>
+                  <p class="dark:text-textLight-dark text-textLight-light">Forging high-impact B2B partnerships and developing new markets to create long-term value and increase profitability</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start animate__animated animate__fadeIn" style="animation-delay: 0.6s;">
+                <div class="flex-shrink-0 mt-1">
+                  <div class="w-10 h-10 rounded-full bg-accent-light/10 dark:bg-accent-light/20 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="font-bold dark:text-text-dark text-text-light">Consumer Insights</h4>
+                  <p class="dark:text-textLight-dark text-textLight-light">Analyzing consumer behavior to create targeted marketing approaches.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="animate__animated animate__slide-up" style="animation-delay: 0.2s;">
+          <div class="dark:bg-card-dark bg-card-light rounded-2xl p-6 sm:p-8 shadow-material-lg card-hover">
+            <h3 class="text-2xl font-bold mb-6 dark:text-text-dark text-text-light">Professional Summary</h3>
+            <p class="dark:text-textLight-dark text-textLight-light mb-6 leading-relaxed">
+              Motivated BBA Marketing graduate with a solid foundation in marketing principles, market research,Business Development and sales strategies. Skilled in analyzing consumer behavior, developing marketing campaigns, and building strong client relationships.
+            </p>
+            
+            <p class="dark:text-textLight-dark text-textLight-light mb-8 leading-relaxed">
+              Detail-oriented and adaptable with hands-on experience in sales training and product promotion. Eager to contribute creativity and strategic thinking to support business growth and brand development.
+            </p>
+            
+            <div class="grid grid-cols-2 gap-4">
+             
+              
+              <div class="dark:bg-surface-dark bg-surface-light p-4 rounded-xl border dark:border-gray-800 border-gray-200">
+                <div class="stat-number mb-1">BBA</div>
+                <div class="text-sm dark:text-textLight-dark text-textLight-light">Marketing Degree</div>
+              </div>
+              
+              <div class="dark:bg-surface-dark bg-surface-light p-4 rounded-xl border dark:border-gray-800 border-gray-200">
+                <div class="stat-number mb-1">2</div>
+                <div class="text-sm dark:text-textLight-dark text-textLight-light">Internships</div>
+              </div>
+              
+              <div class="dark:bg-surface-dark bg-surface-light p-4 rounded-xl border dark:border-gray-800 border-gray-200">
+                <div class="stat-number mb-1">2</div>
+                <div class="text-sm dark:text-textLight-dark text-textLight-light">Languages</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 sm:py-20 relative overflow-hidden dark:bg-background-dark bg-background-light">
+    <div class="floating-shape top-1/4 -left-32" style="animation-delay: 3s;"></div>
+    
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4 section-title inline-block animate__animated animate__fadeInDown">Core <span class="gradient-text">Skills</span></h2>
+        <p class="dark:text-textLight-dark text-textLight-light max-w-2xl mx-auto mt-4 text-lg">
+          Marketing competencies that drive business growth and brand success
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Business Development -->
+        <div class="dark:bg-surface-dark bg-surface-light p-6 rounded-2xl shadow-material-lg card-hover animate__animated animate__bounce-in">
+          <div class="w-14 h-14 rounded-xl bg-primary-light/10 dark:bg-primary-light/20 flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v13a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3 dark:text-text-dark text-text-light">Business Development</h3>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4">
+            Identifying growth opportunities and building strategic partnerships to expand market presence.
+          </p>
+          <div class="mt-6">
+            <div class="flex justify-between mb-2">
+              <span class="text-sm font-medium dark:text-text-dark text-text-light">Expertise</span>
+              <span class="text-sm font-bold text-primary-light">95%</span>
+            </div>
+            <div class="skill-bar dark:bg-gray-800 bg-gray-200">
+              <div class="skill-fill chart-animation" style="--target-width: 95%; width: 95%;"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Marketing Strategy -->
+        <div class="dark:bg-surface-dark bg-surface-light p-6 rounded-2xl shadow-material-lg card-hover animate__animated animate__bounce-in" style="animation-delay: 0.1s;">
+          <div class="w-14 h-14 rounded-xl bg-secondary-light/10 dark:bg-secondary-light/20 flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-secondary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3 dark:text-text-dark text-text-light">Marketing Strategy</h3>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4">
+            Developing comprehensive marketing plans to enhance brand visibility and customer engagement.
+          </p>
+          <div class="mt-6">
+            <div class="flex justify-between mb-2">
+              <span class="text-sm font-medium dark:text-text-dark text-text-light">Expertise</span>
+              <span class="text-sm font-bold text-secondary-light">92%</span>
+            </div>
+            <div class="skill-bar dark:bg-gray-800 bg-gray-200">
+              <div class="skill-fill chart-animation" style="--target-width: 92%; width: 92%;"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Market Research -->
+        <div class="dark:bg-surface-dark bg-surface-light p-6 rounded-2xl shadow-material-lg card-hover animate__animated animate__bounce-in" style="animation-delay: 0.2s;">
+          <div class="w-14 h-14 rounded-xl bg-accent-light/10 dark:bg-accent-light/20 flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-accent-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3 dark:text-text-dark text-text-light">Market Research</h3>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4">
+            Conducting comprehensive industry analysis to identify trends and opportunities.
+          </p>
+          <div class="mt-6">
+            <div class="flex justify-between mb-2">
+              <span class="text-sm font-medium dark:text-text-dark text-text-light">Expertise</span>
+              <span class="text-sm font-bold text-accent-light">93%</span>
+            </div>
+            <div class="skill-bar dark:bg-gray-800 bg-gray-200">
+              <div class="skill-fill chart-animation" style="--target-width: 93%; width: 93%;"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Sales Management -->
+        <div class="dark:bg-surface-dark bg-surface-light p-6 rounded-2xl shadow-material-lg card-hover animate__animated animate__bounce-in" style="animation-delay: 0.3s;">
+          <div class="w-14 h-14 rounded-xl bg-primary-light/10 dark:bg-primary-light/20 flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-3 dark:text-text-dark text-text-light">Sales Management</h3>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4">
+            Leading sales teams and implementing strategies to drive revenue growth.
+          </p>
+          <div class="mt-6">
+            <div class="flex justify-between mb-2">
+              <span class="text-sm font-medium dark:text-text-dark text-text-light">Expertise</span>
+              <span class="text-sm font-bold text-primary-light">90%</span>
+            </div>
+            <div class="skill-bar dark:bg-gray-800 bg-gray-200">
+              <div class="skill-fill chart-animation" style="--target-width: 90%; width: 90%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-16 sm:py-20 relative overflow-hidden dark:bg-surface-dark bg-surface-light">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4 section-title inline-block animate__animated animate__fadeInDown">Work <span class="gradient-text">Experience</span></h2>
+        <p class="dark:text-textLight-dark text-textLight-light max-w-2xl mx-auto mt-4 text-lg">
+          Professional journey and hands-on experience in marketing and business development
+        </p>
+      </div>
+      
+      <div class="max-w-4xl mx-auto">
+        <div class="relative">
+          <div class="timeline-line"></div>
+          
+          <!-- GREENLAM INDUSTRIES LTD -->
+          <div class="relative pl-10 mb-12 animate__animated animate__slide-up">
+            <div class="timeline-dot absolute left-0 top-0"></div>
+            <div class="dark:bg-card-dark bg-card-light p-6 sm:p-8 rounded-2xl shadow-material-lg card-hover">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6">
+                <div class="flex items-center mb-4 sm:mb-0">
+                  <!-- Company Logo -->
+                  <img src="images/greenlam.png" 
+     alt="Greenlam Industries" 
+     class="w-12 h-12 rounded-xl object-contain bg-white p-1 mr-4 border dark:border-gray-700 border-gray-300">
+                  <div>
+                    <h3 class="text-xl font-bold dark:text-text-dark text-text-light mb-1">Sales & Management Trainee</h3>
+                    <h4 class="text-lg font-semibold text-primary-light mb-2">GREENLAM INDUSTRIES LTD</h4>
+                  </div>
+                </div>
+                <span class="bg-primary-light/10 dark:bg-primary-light/20 text-primary-light px-4 py-2 rounded-full font-medium">March 2025</span>
+              </div>
+              <p class="dark:text-textLight-dark text-textLight-light mb-6">
+                Engaged in comprehensive training in the laminate product industry, specializing in technical sales and establishing strong customer relationships.
+              </p>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div class="w-5 h-5 rounded-full bg-primary-light/20 flex items-center justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="ml-3 dark:text-textLight-dark text-textLight-light text-sm">Received comprehensive training in laminate product specifications</p>
+                </div>
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div class="w-5 h-5 rounded-full bg-primary-light/20 flex items-center justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="ml-3 dark:text-textLight-dark text-textLight-light text-sm">Specialized in technical sales strategies for building materials</p>
+                </div>
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div class="w-5 h-5 rounded-full bg-primary-light/20 flex items-center justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="ml-3 dark:text-textLight-dark text-textLight-light text-sm">Established strong customer relationships with contractors</p>
+                </div>
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1">
+                    <div class="w-5 h-5 rounded-full bg-primary-light/20 flex items-center justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="ml-3 dark:text-textLight-dark text-textLight-light text-sm">Developed understanding of interior design market needs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Insplore Consultant -->
+          <div class="relative pl-10 mb-12 animate__animated animate__slide-up" style="animation-delay: 0.1s;">
+            <div class="timeline-dot absolute left-0 top-0"></div>
+            <div class="dark:bg-card-dark bg-card-light p-6 sm:p-8 rounded-2xl shadow-material-lg card-hover">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6">
+                <div class="flex items-center mb-4 sm:mb-0">
+                  <!-- Company Logo -->
+                  <img src="images/insplore.png" 
+     alt="Insplore Consultant" 
+     class="w-12 h-12 rounded-xl object-contain bg-white p-1 mr-4 border dark:border-gray-700 border-gray-300">
+                  <div>
+                    <h3 class="text-xl font-bold dark:text-text-dark text-text-light mb-1">Marketing Position</h3>
+                    <h4 class="text-lg font-semibold text-secondary-light mb-2">Insplore Consultant</h4>
+                  </div>
+                </div>
+                <span class="bg-secondary-light/10 dark:bg-secondary-light/20 text-secondary-light px-4 py-2 rounded-full font-medium">Jun 2024 – Aug 2024</span>
+              </div>
+              <p class="dark:text-textLight-dark text-textLight-light mb-6">
+                Conducted comprehensive analysis of industry trends and developed strategic plans to enhance customer growth and engagement.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="bg-primary-light/10 dark:bg-primary-light/20 text-primary-light px-3 py-1 rounded-full text-sm">Market Research</span>
+                <span class="bg-secondary-light/10 dark:bg-secondary-light/20 text-secondary-light px-3 py-1 rounded-full text-sm">Strategic Planning</span>
+                <span class="bg-accent-light/10 dark:bg-accent-light/20 text-accent-light px-3 py-1 rounded-full text-sm">Customer Analysis</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Agile Capital Service -->
+          <div class="relative pl-10 animate__animated animate__slide-up" style="animation-delay: 0.2s;">
+            <div class="timeline-dot absolute left-0 top-0"></div>
+            <div class="dark:bg-card-dark bg-card-light p-6 sm:p-8 rounded-2xl shadow-material-lg card-hover">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6">
+                <div class="flex items-center mb-4 sm:mb-0">
+                  <!-- Company Logo -->
+                  <img src="images/acs.png" 
+     alt="Agile Capital Service" 
+     class="w-12 h-12 rounded-xl object-contain bg-white p-1 mr-4 border dark:border-gray-700 border-gray-300">
+                  <div>
+                    <h3 class="text-xl font-bold dark:text-text-dark text-text-light mb-1">Marketing & Business Strategy</h3>
+                    <h4 class="text-lg font-semibold text-accent-light mb-2">Agile Capital Service</h4>
+                  </div>
+                </div>
+                <span class="bg-accent-light/10 dark:bg-accent-light/20 text-accent-light px-4 py-2 rounded-full font-medium">Jun 2024 – July 2024</span>
+              </div>
+              <p class="dark:text-textLight-dark text-textLight-light mb-6">
+                Collaborated with teams to implement marketing initiatives and effective strategic planning within a dynamic business environment.
+              </p>
+              <div class="flex flex-wrap gap-2">
+                <span class="bg-primary-light/10 dark:bg-primary-light/20 text-primary-light px-3 py-1 rounded-full text-sm">Team Collaboration</span>
+                <span class="bg-secondary-light/10 dark:bg-secondary-light/20 text-secondary-light px-3 py-1 rounded-full text-sm">Business Strategy</span>
+                <span class="bg-accent-light/10 dark:bg-accent-light/20 text-accent-light px-3 py-1 rounded-full text-sm">Marketing Initiatives</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="py-16 sm:py-20 relative overflow-hidden dark:bg-background-dark bg-background-light">
+    <div class="floating-shape bottom-1/4 -right-32" style="animation-delay: 4s;"></div>
+    
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4 section-title inline-block animate__animated animate__fadeInDown">Educational <span class="gradient-text">Background</span></h2>
+        <p class="dark:text-textLight-dark text-textLight-light max-w-2xl mx-auto mt-4 text-lg">
+          Academic qualifications that form the foundation of my marketing expertise
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <!-- BBA Marketing -->
+        <div class="dark:bg-surface-dark bg-surface-light p-6 rounded-2xl shadow-material-lg card-hover animate__animated animate__bounce-in">
+          <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-primary-light/10 dark:bg-primary-light/20 mb-6 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 text-center dark:text-text-dark text-text-light">BBA Marketing</h3>
+          <p class="text-primary-light font-medium mb-2 text-center">Uttranchal University</p>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4 text-center">2022–2025</p>
+          <p class="dark:text-textLight-dark text-textLight-light text-center">
+            Comprehensive education in marketing principles, consumer behavior, market research, and business strategy.
+          </p>
+        </div>
+        
+        <!-- Class 12 -->
+        <div class="dark:bg-surface-dark bg-surface-light p-6 rounded-2xl shadow-material-lg card-hover animate__animated animate__bounce-in" style="animation-delay: 0.1s;">
+          <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-secondary-light/10 dark:bg-secondary-light/20 mb-6 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-secondary-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 text-center dark:text-text-dark text-text-light">Class 12 (CBSE – Commerce)</h3>
+          <p class="text-secondary-light font-medium mb-2 text-center">Doon International Public School, Rishikesh</p>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4 text-center">2021–2022</p>
+          <p class="dark:text-textLight-dark text-textLight-light text-center">
+            Commerce stream education with focus on analytical thinking, problem-solving, and research skills.
+          </p>
+        </div>
+        
+        <!-- Class 10 -->
+        <div class="dark:bg-surface-dark bg-surface-light p-6 rounded-2xl shadow-material-lg card-hover animate__animated animate__bounce-in" style="animation-delay: 0.2s;">
+          <div class="flex items-center justify-center w-16 h-16 rounded-2xl bg-accent-light/10 dark:bg-accent-light/20 mb-6 mx-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 text-center dark:text-text-dark text-text-light">Class 10 (NIOS)</h3>
+          <p class="text-accent-light font-medium mb-2 text-center">National Institute of Open Schooling</p>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4 text-center">2019–2020</p>
+          <p class="dark:text-textLight-dark text-textLight-light text-center">
+            Foundation in core academic subjects with focus on self-paced learning, discipline, and time management.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 sm:py-20 relative overflow-hidden dark:bg-surface-dark bg-surface-light">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4 section-title inline-block animate__animated animate__fadeInDown">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="dark:text-textLight-dark text-textLight-light max-w-2xl mx-auto mt-4 text-lg">
+          I'm always open to discussing marketing opportunities, partnerships, or just connecting
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+        <!-- Email -->
+        <div class="dark:bg-card-dark bg-card-light p-6 rounded-2xl shadow-material-lg text-center card-hover animate__animated animate__fade-in">
+          <div class="text-primary-light mb-6 mx-auto w-14 h-14 flex items-center justify-center rounded-full bg-primary-light/10 dark:bg-primary-light/20">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 dark:text-text-dark text-text-light">Email</h3>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4">jatinchandramola773@gmail.com</p>
+          <a href="mailto:jatinchandramola773@gmail.com" class="text-primary-light hover:text-primary-dark dark:hover:text-primary-light text-sm font-medium transition-colors duration-300 inline-flex items-center">
+            <span>Send a message</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+        
+        <!-- Phone -->
+        <div class="dark:bg-card-dark bg-card-light p-6 rounded-2xl shadow-material-lg text-center card-hover animate__animated animate__fade-in" style="animation-delay: 0.1s;">
+          <div class="text-primary-light mb-6 mx-auto w-14 h-14 flex items-center justify-center rounded-full bg-primary-light/10 dark:bg-primary-light/20">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 dark:text-text-dark text-text-light">Phone</h3>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4">+91-8218475135</p>
+          <a href="tel:+918218475135" class="text-primary-light hover:text-primary-dark dark:hover:text-primary-light text-sm font-medium transition-colors duration-300 inline-flex items-center">
+            <span>Call me</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+        
+        <!-- Location -->
+        <div class="dark:bg-card-dark bg-card-light p-6 rounded-2xl shadow-material-lg text-center card-hover animate__animated animate__fade-in" style="animation-delay: 0.2s;">
+          <div class="text-primary-light mb-6 mx-auto w-14 h-14 flex items-center justify-center rounded-full bg-primary-light/10 dark:bg-primary-light/20">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2 dark:text-text-dark text-text-light">Location</h3>
+          <p class="dark:text-textLight-dark text-textLight-light mb-4">Rishikesh, Uttarakhand</p>
+          <a href="https://maps.google.com/maps?q=Rishikesh+Uttarakhand" target="_blank" rel="noopener noreferrer" class="text-primary-light hover:text-primary-dark dark:hover:text-primary-light text-sm font-medium transition-colors duration-300 inline-flex items-center">
+            <span>View on map</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Languages -->
+      <div class="max-w-2xl mx-auto animate__animated animate__fade-in" style="animation-delay: 0.3s;">
+        <div class="dark:bg-card-dark bg-card-light rounded-2xl p-6 shadow-material-lg">
+          <h3 class="text-xl font-bold mb-6 text-center dark:text-text-dark text-text-light">Languages</h3>
+          <div class="flex flex-col sm:flex-row justify-center sm:space-x-12 space-y-6 sm:space-y-0">
+            <div class="text-center">
+              <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-primary-light/10 dark:bg-primary-light/20 flex items-center justify-center mb-4 mx-auto">
+                <span class="text-2xl font-bold text-primary-light">EN</span>
+              </div>
+              <h4 class="font-bold dark:text-text-dark text-text-light mb-1">English</h4>
+              <p class="dark:text-textLight-dark text-textLight-light text-sm">Professional Proficiency</p>
+            </div>
+            <div class="text-center">
+              <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-secondary-light/10 dark:bg-secondary-light/20 flex items-center justify-center mb-4 mx-auto">
+                <span class="text-2xl font-bold text-secondary-light">HI</span>
+              </div>
+              <h4 class="font-bold dark:text-text-dark text-text-light mb-1">Hindi</h4>
+              <p class="dark:text-textLight-dark text-textLight-light text-sm">Native Fluency</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="dark:bg-background-dark bg-background-light py-12 border-t dark:border-gray-800 border-gray-200">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="flex flex-col items-center">
+        <a href="#home" class="text-2xl font-bold mb-6">
+          <span class="gradient-text">Jitenchand Ramola</span>
+        </a>
+        <p class="dark:text-textLight-dark text-textLight-light text-center max-w-2xl mb-8">
+          Marketing & Business Development Professional focused on strategic growth and business development
+        </p>
+        <div class="flex space-x-6 mb-8">
+          <a href="mailto:jatinchandramola773@gmail.com" class="dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </a>
+          <a href="tel:+918218475135" class="dark:text-textLight-dark text-textLight-light hover:text-primary-light transition-colors duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+          </a>
+        </div>
+        <p class="dark:text-textLight-dark text-textLight-light text-sm">
+          © 2025 Jitenchand Ramola. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    
+    // Theme Toggle
+        // Theme Toggle FAB
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const themeTooltip = document.getElementById('theme-tooltip');
+    
+    // Check for saved theme or prefer-color-scheme
+    const updateTheme = () => {
+      if (localStorage.getItem('theme') === 'light' || 
+          (window.matchMedia('(prefers-color-scheme: light)').matches && !localStorage.getItem('theme'))) {
+        document.documentElement.classList.add('light');
+        document.documentElement.classList.remove('dark');
+        themeIcon.innerHTML = '<path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path>';
+        themeTooltip.textContent = 'Switch to Dark Mode';
+      } else {
+        document.documentElement.classList.add('dark');
+        document.documentElement.classList.remove('light');
+        themeIcon.innerHTML = '<path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>';
+        themeTooltip.textContent = 'Switch to Light Mode';
+      }
+    };
+    
+    // Initial theme setup
+    updateTheme();
+    
+    // Tooltip show/hide
+    let tooltipTimeout;
+    themeToggle.addEventListener('mouseenter', () => {
+      clearTimeout(tooltipTimeout);
+      themeTooltip.classList.remove('opacity-0');
+      themeTooltip.classList.add('opacity-100');
+    });
+    
+    themeToggle.addEventListener('mouseleave', () => {
+      tooltipTimeout = setTimeout(() => {
+        themeTooltip.classList.remove('opacity-100');
+        themeTooltip.classList.add('opacity-0');
+      }, 300);
+    });
+    
+    // Touch devices support
+    themeToggle.addEventListener('touchstart', () => {
+      clearTimeout(tooltipTimeout);
+      themeTooltip.classList.remove('opacity-0');
+      themeTooltip.classList.add('opacity-100');
+      
+      // Hide tooltip after 2 seconds on touch
+      setTimeout(() => {
+        themeTooltip.classList.remove('opacity-100');
+        themeTooltip.classList.add('opacity-0');
+      }, 2000);
+    });
+    
+    // Toggle theme on click
+    themeToggle.addEventListener('click', () => {
+      if (document.documentElement.classList.contains('dark')) {
+        localStorage.setItem('theme', 'light');
+      } else {
+        localStorage.setItem('theme', 'dark');
+      }
+      updateTheme();
+      
+      // Add click animation
+      themeToggle.classList.add('active:scale-95');
+      setTimeout(() => {
+        themeToggle.classList.remove('active:scale-95');
+      }, 200);
+    });
+    
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      menuToggle.classList.toggle('text-primary-light');
+    });
+    
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuToggle.classList.remove('text-primary-light');
+      });
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      if (anchor.getAttribute('href') !== '#') {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          
+          // Close mobile menu if open
+          mobileMenu.classList.add('hidden');
+          menuToggle.classList.remove('text-primary-light');
+          
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      }
+    });
+    
+    // Add shadow to header on scroll
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('header');
+      if (window.scrollY > 50) {
+        header.classList.add('shadow-material-lg');
+      } else {
+        header.classList.remove('shadow-material-lg');
+      }
+    });
+    
+    // Animation on scroll
+    const animateOnScroll = () => {
+      const elements = document.querySelectorAll('.card-hover, .section-title, .animate__animated');
+      
+      elements.forEach(element => {
+        const elementPosition = element.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.2;
+        
+        if (elementPosition < screenPosition) {
+          element.classList.add('animate__animated', 'animate__fadeInUp');
+        }
+      });
+    };
+    
+    window.addEventListener('scroll', animateOnScroll);
+    window.addEventListener('load', animateOnScroll);
+    
+    // Skill bar animation
+    const skillBars = document.querySelectorAll('.skill-fill');
+    skillBars.forEach(bar => {
+      const width = bar.style.width;
+      bar.style.width = '0%';
+      setTimeout(() => {
+        bar.style.width = width;
+      }, 300);
+    });
+    
+    // Marketing glow animation for elements
+    const marketingElements = document.querySelectorAll('.marketing-element');
+    marketingElements.forEach((element, index) => {
+      element.style.animationDelay = `${index * 0.5}s`;
+    });
+  </script>
+</body>
+</html>
